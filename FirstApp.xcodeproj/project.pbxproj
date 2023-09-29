@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2411A7812AC6E9B40094C58B /* SwiftUIBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411A7802AC6E9B40094C58B /* SwiftUIBinding.swift */; };
 		24724AA52AA38C8A00FE4070 /* SwifUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24724AA42AA38C8A00FE4070 /* SwifUIView.swift */; };
 		247BE35F29815A5900C9B524 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE35E29815A5900C9B524 /* FirstAppApp.swift */; };
 		247BE36129815A5900C9B524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE36029815A5900C9B524 /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 		247BE37129815A5D00C9B524 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE37029815A5D00C9B524 /* FirstAppTests.swift */; };
 		247BE37B29815A5D00C9B524 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE37A29815A5D00C9B524 /* FirstAppUITests.swift */; };
 		247BE37D29815A5D00C9B524 /* FirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE37C29815A5D00C9B524 /* FirstAppUITestsLaunchTests.swift */; };
+		24D28E6C2AC6EE4D00F7939A /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E6B2AC6EE4D00F7939A /* ColorSwatch.swift */; };
+		24D28E6E2AC6EFC200F7939A /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E6D2AC6EFC200F7939A /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2411A7802AC6E9B40094C58B /* SwiftUIBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBinding.swift; sourceTree = "<group>"; };
 		24724AA42AA38C8A00FE4070 /* SwifUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIView.swift; sourceTree = "<group>"; };
 		247BE35B29815A5900C9B524 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247BE35E29815A5900C9B524 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		247BE37629815A5D00C9B524 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		247BE37A29815A5D00C9B524 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		247BE37C29815A5D00C9B524 /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24D28E6B2AC6EE4D00F7939A /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		24D28E6D2AC6EFC200F7939A /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				247BE36229815A5D00C9B524 /* Assets.xcassets */,
 				247BE36429815A5D00C9B524 /* FirstApp.entitlements */,
 				247BE36529815A5D00C9B524 /* Preview Content */,
+				2411A7802AC6E9B40094C58B /* SwiftUIBinding.swift */,
+				24D28E6B2AC6EE4D00F7939A /* ColorSwatch.swift */,
+				24D28E6D2AC6EFC200F7939A /* ColorSlider.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				247BE36129815A5900C9B524 /* ContentView.swift in Sources */,
+				2411A7812AC6E9B40094C58B /* SwiftUIBinding.swift in Sources */,
 				24724AA52AA38C8A00FE4070 /* SwifUIView.swift in Sources */,
 				247BE35F29815A5900C9B524 /* FirstAppApp.swift in Sources */,
+				24D28E6E2AC6EFC200F7939A /* ColorSlider.swift in Sources */,
+				24D28E6C2AC6EE4D00F7939A /* ColorSwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

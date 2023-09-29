@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24724AA52AA38C8A00FE4070 /* SwifUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24724AA42AA38C8A00FE4070 /* SwifUIView.swift */; };
 		247BE35F29815A5900C9B524 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE35E29815A5900C9B524 /* FirstAppApp.swift */; };
 		247BE36129815A5900C9B524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE36029815A5900C9B524 /* ContentView.swift */; };
 		247BE36329815A5D00C9B524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247BE36229815A5D00C9B524 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24724AA42AA38C8A00FE4070 /* SwifUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIView.swift; sourceTree = "<group>"; };
 		247BE35B29815A5900C9B524 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247BE35E29815A5900C9B524 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		247BE36029815A5900C9B524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				247BE35E29815A5900C9B524 /* FirstAppApp.swift */,
 				247BE36029815A5900C9B524 /* ContentView.swift */,
+				24724AA42AA38C8A00FE4070 /* SwifUIView.swift */,
 				247BE36229815A5D00C9B524 /* Assets.xcassets */,
 				247BE36429815A5D00C9B524 /* FirstApp.entitlements */,
 				247BE36529815A5D00C9B524 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247BE36129815A5900C9B524 /* ContentView.swift in Sources */,
+				24724AA52AA38C8A00FE4070 /* SwifUIView.swift in Sources */,
 				247BE35F29815A5900C9B524 /* FirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T2393R3XKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T2393R3XKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

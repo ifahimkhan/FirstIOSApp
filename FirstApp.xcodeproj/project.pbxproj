@@ -21,6 +21,7 @@
 		24D28E702AC7032400F7939A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E6F2AC7032400F7939A /* DataModel.swift */; };
 		24D28E722AC7049C00F7939A /* DynamicSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E712AC7049C00F7939A /* DynamicSwiftUIView.swift */; };
 		24D28E742AC705E800F7939A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E732AC705E800F7939A /* DetailView.swift */; };
+		24D28E762AD1575200F7939A /* TipCalcSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D28E752AD1575200F7939A /* TipCalcSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		24D28E6F2AC7032400F7939A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		24D28E712AC7049C00F7939A /* DynamicSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSwiftUIView.swift; sourceTree = "<group>"; };
 		24D28E732AC705E800F7939A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		24D28E752AD1575200F7939A /* TipCalcSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				24D28E6F2AC7032400F7939A /* DataModel.swift */,
 				24D28E712AC7049C00F7939A /* DynamicSwiftUIView.swift */,
 				24D28E732AC705E800F7939A /* DetailView.swift */,
+				24D28E752AD1575200F7939A /* TipCalcSwiftUIView.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				24D28E6E2AC6EFC200F7939A /* ColorSlider.swift in Sources */,
 				24D28E722AC7049C00F7939A /* DynamicSwiftUIView.swift in Sources */,
 				24D28E6C2AC6EE4D00F7939A /* ColorSwatch.swift in Sources */,
+				24D28E762AD1575200F7939A /* TipCalcSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
